@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    
+
+    
+    
+    <div class="calculator">
+
+        <div class="display">
+            <input disabled class="inp" id="display" placeholder="0"  type="text">
+        </div>
+
+<div class="Btn">
+    <button onclick="getValue(1)" class="customBtn">1</button>
+    <button onclick="getValue(2)" class="customBtn">2</button>
+    <button onclick="getValue(3)" class="customBtn">3</button>
+    <button onclick="clearAll()" class="customBtn">C</button>
+    <button onclick="getValue(4)" class="customBtn">4</button>
+    <button onclick="getValue(5)" class="customBtn">5</button>
+    <button onclick="getValue(6)" class="customBtn">6</button>
+    <button onclick="getValue('+')" class="customBtn">+</button>
+    <button onclick="getValue(7)" class="customBtn">7</button>
+    <button onclick="getValue(8)" class="customBtn">8</button>
+    <button onclick="getValue(9)" class="customBtn">9</button>
+    <button onclick="getValue('-')" class="customBtn">_</button>
+    <button onclick="getValue(0)" class="customBtn">0</button>
+    <button onclick="getValue('/')" class="customBtn"><i class="fa-solid fa-divide  fs-1 "></i></button>
+    <button onclick="getValue('*')" class="customBtn"><i class="fa-solid fa-xmark  fs-1 "></i></button>
+    <button onclick="calculation()" class="customBtn">=</button>
+</div>
+
+    </div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
